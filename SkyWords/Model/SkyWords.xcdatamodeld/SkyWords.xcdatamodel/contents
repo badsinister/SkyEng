@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="Alternative" representedClassName="SWAlternative" syncable="YES">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meaning" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meaning" inverseName="alternatives" inverseEntity="Meaning" syncable="YES"/>
+    </entity>
+    <entity name="Meaning" representedClassName="SWMeaning" syncable="YES">
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meaningId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="alternatives" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Alternative" inverseName="meaning" inverseEntity="Alternative" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="sortOrder"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="Alternative" positionX="-54" positionY="18" width="128" height="90"/>
+        <element name="Meaning" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>

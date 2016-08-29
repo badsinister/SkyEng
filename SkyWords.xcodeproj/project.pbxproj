@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8045B4E1D6EB89700D42DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B4D1D6EB89700D42DBF /* main.m */; };
+		C8045B511D6EB89700D42DBF /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B501D6EB89700D42DBF /* SWAppDelegate.m */; };
+		C8045B571D6EB89700D42DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8045B551D6EB89700D42DBF /* Main.storyboard */; };
+		C8045B591D6EB89700D42DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8045B581D6EB89700D42DBF /* Assets.xcassets */; };
+		C8045B5C1D6EB89700D42DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8045B5A1D6EB89700D42DBF /* LaunchScreen.storyboard */; };
+		C8045B691D6EBA0400D42DBF /* SWEngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B681D6EBA0400D42DBF /* SWEngineViewController.m */; };
+		C8045B6C1D6EBA7600D42DBF /* SWStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B6B1D6EBA7600D42DBF /* SWStartViewController.m */; };
+		C8045B711D6EBE1200D42DBF /* SWGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B701D6EBE1200D42DBF /* SWGuessViewController.m */; };
+		C8045B761D6EBE6200D42DBF /* SWWaterlooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B751D6EBE6200D42DBF /* SWWaterlooViewController.m */; };
+		C8045B791D6ED78500D42DBF /* SWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B781D6ED78500D42DBF /* SWButton.m */; };
+		C8045B7F1D6EFB6400D42DBF /* SWNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B7C1D6EFB6400D42DBF /* SWNetworkOperation.m */; };
+		C8045B801D6EFB6400D42DBF /* SWNetworkStoreCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8045B7E1D6EFB6400D42DBF /* SWNetworkStoreCoordinator.m */; };
+		C80746191D709DAD00A1B817 /* SkyWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C80746171D709DAD00A1B817 /* SkyWords.xcdatamodeld */; };
+		C807462F1D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C80746281D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.m */; };
+		C80746301D70DC1A00A1B817 /* SWAlternative.m in Sources */ = {isa = PBXBuildFile; fileRef = C807462A1D70DC1A00A1B817 /* SWAlternative.m */; };
+		C80746311D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C807462C1D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.m */; };
+		C80746321D70DC1A00A1B817 /* SWMeaning.m in Sources */ = {isa = PBXBuildFile; fileRef = C807462E1D70DC1A00A1B817 /* SWMeaning.m */; };
+		C80865841D72A62E00A71A0D /* SWAlternativeGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80865831D72A62E00A71A0D /* SWAlternativeGuessViewController.m */; };
+		C80865881D72A65500A71A0D /* SWMeaningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80865871D72A65500A71A0D /* SWMeaningViewController.m */; };
+		C8D598D71D7025870016CAD5 /* SWDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D598D61D7025870016CAD5 /* SWDataContext.m */; };
+		C8F9845E1D73FCC500945463 /* SWDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F9845D1D73FCC500945463 /* SWDownloadOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8045B491D6EB89700D42DBF /* SkyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8045B4D1D6EB89700D42DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8045B4F1D6EB89700D42DBF /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		C8045B501D6EB89700D42DBF /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		C8045B561D6EB89700D42DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8045B581D6EB89700D42DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8045B5B1D6EB89700D42DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8045B5D1D6EB89700D42DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8045B671D6EBA0400D42DBF /* SWEngineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWEngineViewController.h; path = Controllers/SWEngineViewController.h; sourceTree = "<group>"; };
+		C8045B681D6EBA0400D42DBF /* SWEngineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWEngineViewController.m; path = Controllers/SWEngineViewController.m; sourceTree = "<group>"; };
+		C8045B6A1D6EBA7600D42DBF /* SWStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWStartViewController.h; path = Controllers/SWStartViewController.h; sourceTree = "<group>"; };
+		C8045B6B1D6EBA7600D42DBF /* SWStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWStartViewController.m; path = Controllers/SWStartViewController.m; sourceTree = "<group>"; };
+		C8045B6F1D6EBE1200D42DBF /* SWGuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWGuessViewController.h; path = Controllers/SWGuessViewController.h; sourceTree = "<group>"; };
+		C8045B701D6EBE1200D42DBF /* SWGuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWGuessViewController.m; path = Controllers/SWGuessViewController.m; sourceTree = "<group>"; };
+		C8045B741D6EBE6200D42DBF /* SWWaterlooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWWaterlooViewController.h; path = Controllers/SWWaterlooViewController.h; sourceTree = "<group>"; };
+		C8045B751D6EBE6200D42DBF /* SWWaterlooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWWaterlooViewController.m; path = Controllers/SWWaterlooViewController.m; sourceTree = "<group>"; };
+		C8045B771D6ED78500D42DBF /* SWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWButton.h; path = Classes/SWButton.h; sourceTree = "<group>"; };
+		C8045B781D6ED78500D42DBF /* SWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWButton.m; path = Classes/SWButton.m; sourceTree = "<group>"; };
+		C8045B7B1D6EFB6400D42DBF /* SWNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWNetworkOperation.h; path = Classes/Network/SWNetworkOperation.h; sourceTree = "<group>"; };
+		C8045B7C1D6EFB6400D42DBF /* SWNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWNetworkOperation.m; path = Classes/Network/SWNetworkOperation.m; sourceTree = "<group>"; };
+		C8045B7D1D6EFB6400D42DBF /* SWNetworkStoreCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWNetworkStoreCoordinator.h; path = Classes/Network/SWNetworkStoreCoordinator.h; sourceTree = "<group>"; };
+		C8045B7E1D6EFB6400D42DBF /* SWNetworkStoreCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWNetworkStoreCoordinator.m; path = Classes/Network/SWNetworkStoreCoordinator.m; sourceTree = "<group>"; };
+		C80746181D709DAD00A1B817 /* SkyWords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkyWords.xcdatamodel; sourceTree = "<group>"; };
+		C80746271D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SWAlternative+CoreDataProperties.h"; path = "Model/SWAlternative+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C80746281D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SWAlternative+CoreDataProperties.m"; path = "Model/SWAlternative+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C80746291D70DC1A00A1B817 /* SWAlternative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAlternative.h; path = Model/SWAlternative.h; sourceTree = "<group>"; };
+		C807462A1D70DC1A00A1B817 /* SWAlternative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWAlternative.m; path = Model/SWAlternative.m; sourceTree = "<group>"; };
+		C807462B1D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SWMeaning+CoreDataProperties.h"; path = "Model/SWMeaning+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C807462C1D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SWMeaning+CoreDataProperties.m"; path = "Model/SWMeaning+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C807462D1D70DC1A00A1B817 /* SWMeaning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMeaning.h; path = Model/SWMeaning.h; sourceTree = "<group>"; };
+		C807462E1D70DC1A00A1B817 /* SWMeaning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWMeaning.m; path = Model/SWMeaning.m; sourceTree = "<group>"; };
+		C80865821D72A62E00A71A0D /* SWAlternativeGuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAlternativeGuessViewController.h; path = Controllers/SWAlternativeGuessViewController.h; sourceTree = "<group>"; };
+		C80865831D72A62E00A71A0D /* SWAlternativeGuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWAlternativeGuessViewController.m; path = Controllers/SWAlternativeGuessViewController.m; sourceTree = "<group>"; };
+		C80865861D72A65500A71A0D /* SWMeaningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMeaningViewController.h; path = Controllers/SWMeaningViewController.h; sourceTree = "<group>"; };
+		C80865871D72A65500A71A0D /* SWMeaningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWMeaningViewController.m; path = Controllers/SWMeaningViewController.m; sourceTree = "<group>"; };
+		C8D598D51D7025870016CAD5 /* SWDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWDataContext.h; path = Classes/Data/SWDataContext.h; sourceTree = "<group>"; };
+		C8D598D61D7025870016CAD5 /* SWDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWDataContext.m; path = Classes/Data/SWDataContext.m; sourceTree = "<group>"; };
+		C8F9845C1D73FCC500945463 /* SWDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWDownloadOperation.h; path = Classes/Network/SWDownloadOperation.h; sourceTree = "<group>"; };
+		C8F9845D1D73FCC500945463 /* SWDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWDownloadOperation.m; path = Classes/Network/SWDownloadOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8045B461D6EB89700D42DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8045B401D6EB89700D42DBF = {
+			isa = PBXGroup;
+			children = (
+				C8045B4B1D6EB89700D42DBF /* SkyWords */,
+				C8045B4A1D6EB89700D42DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8045B4A1D6EB89700D42DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B491D6EB89700D42DBF /* SkyWords.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8045B4B1D6EB89700D42DBF /* SkyWords */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B4F1D6EB89700D42DBF /* SWAppDelegate.h */,
+				C8045B501D6EB89700D42DBF /* SWAppDelegate.m */,
+				C8045B651D6EB95000D42DBF /* Model */,
+				C8045B631D6EB93A00D42DBF /* View */,
+				C8045B641D6EB94400D42DBF /* Controllers */,
+				C8045B661D6EB95A00D42DBF /* Classes */,
+				C8045B581D6EB89700D42DBF /* Assets.xcassets */,
+				C8045B5D1D6EB89700D42DBF /* Info.plist */,
+				C8045B4C1D6EB89700D42DBF /* Supporting Files */,
+			);
+			path = SkyWords;
+			sourceTree = "<group>";
+		};
+		C8045B4C1D6EB89700D42DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B4D1D6EB89700D42DBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8045B631D6EB93A00D42DBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B551D6EB89700D42DBF /* Main.storyboard */,
+				C8045B5A1D6EB89700D42DBF /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C8045B641D6EB94400D42DBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B6E1D6EBA8200D42DBF /* Engine */,
+				C8045B6D1D6EBA7A00D42DBF /* Start */,
+				C8045B721D6EBE1600D42DBF /* Guess */,
+				C8045B731D6EBE2100D42DBF /* Waterloo */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C8045B651D6EB95000D42DBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8D598D51D7025870016CAD5 /* SWDataContext.h */,
+				C8D598D61D7025870016CAD5 /* SWDataContext.m */,
+				C80746261D70DBAC00A1B817 /* CD */,
+				C80746171D709DAD00A1B817 /* SkyWords.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C8045B661D6EB95A00D42DBF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B7A1D6EFB5100D42DBF /* Network */,
+				C8045B771D6ED78500D42DBF /* SWButton.h */,
+				C8045B781D6ED78500D42DBF /* SWButton.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C8045B6D1D6EBA7A00D42DBF /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B6A1D6EBA7600D42DBF /* SWStartViewController.h */,
+				C8045B6B1D6EBA7600D42DBF /* SWStartViewController.m */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		C8045B6E1D6EBA8200D42DBF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B671D6EBA0400D42DBF /* SWEngineViewController.h */,
+				C8045B681D6EBA0400D42DBF /* SWEngineViewController.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		C8045B721D6EBE1600D42DBF /* Guess */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B6F1D6EBE1200D42DBF /* SWGuessViewController.h */,
+				C8045B701D6EBE1200D42DBF /* SWGuessViewController.m */,
+				C80865851D72A63200A71A0D /* Alternative */,
+				C80865891D72A65800A71A0D /* Meaning */,
+			);
+			name = Guess;
+			sourceTree = "<group>";
+		};
+		C8045B731D6EBE2100D42DBF /* Waterloo */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B741D6EBE6200D42DBF /* SWWaterlooViewController.h */,
+				C8045B751D6EBE6200D42DBF /* SWWaterlooViewController.m */,
+			);
+			name = Waterloo;
+			sourceTree = "<group>";
+		};
+		C8045B7A1D6EFB5100D42DBF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C8045B7D1D6EFB6400D42DBF /* SWNetworkStoreCoordinator.h */,
+				C8045B7E1D6EFB6400D42DBF /* SWNetworkStoreCoordinator.m */,
+				C8045B7B1D6EFB6400D42DBF /* SWNetworkOperation.h */,
+				C8045B7C1D6EFB6400D42DBF /* SWNetworkOperation.m */,
+				C8F9845C1D73FCC500945463 /* SWDownloadOperation.h */,
+				C8F9845D1D73FCC500945463 /* SWDownloadOperation.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C80746261D70DBAC00A1B817 /* CD */ = {
+			isa = PBXGroup;
+			children = (
+				C80746271D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.h */,
+				C80746281D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.m */,
+				C80746291D70DC1A00A1B817 /* SWAlternative.h */,
+				C807462A1D70DC1A00A1B817 /* SWAlternative.m */,
+				C807462B1D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.h */,
+				C807462C1D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.m */,
+				C807462D1D70DC1A00A1B817 /* SWMeaning.h */,
+				C807462E1D70DC1A00A1B817 /* SWMeaning.m */,
+			);
+			name = CD;
+			sourceTree = "<group>";
+		};
+		C80865851D72A63200A71A0D /* Alternative */ = {
+			isa = PBXGroup;
+			children = (
+				C80865821D72A62E00A71A0D /* SWAlternativeGuessViewController.h */,
+				C80865831D72A62E00A71A0D /* SWAlternativeGuessViewController.m */,
+			);
+			name = Alternative;
+			sourceTree = "<group>";
+		};
+		C80865891D72A65800A71A0D /* Meaning */ = {
+			isa = PBXGroup;
+			children = (
+				C80865861D72A65500A71A0D /* SWMeaningViewController.h */,
+				C80865871D72A65500A71A0D /* SWMeaningViewController.m */,
+			);
+			name = Meaning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8045B481D6EB89700D42DBF /* SkyWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8045B601D6EB89700D42DBF /* Build configuration list for PBXNativeTarget "SkyWords" */;
+			buildPhases = (
+				C8045B451D6EB89700D42DBF /* Sources */,
+				C8045B461D6EB89700D42DBF /* Frameworks */,
+				C8045B471D6EB89700D42DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWords;
+			productName = SkyWords;
+			productReference = C8045B491D6EB89700D42DBF /* SkyWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8045B411D6EB89700D42DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arcady Morozov";
+				TargetAttributes = {
+					C8045B481D6EB89700D42DBF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C8045B441D6EB89700D42DBF /* Build configuration list for PBXProject "SkyWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8045B401D6EB89700D42DBF;
+			productRefGroup = C8045B4A1D6EB89700D42DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8045B481D6EB89700D42DBF /* SkyWords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8045B471D6EB89700D42DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8045B5C1D6EB89700D42DBF /* LaunchScreen.storyboard in Resources */,
+				C8045B591D6EB89700D42DBF /* Assets.xcassets in Resources */,
+				C8045B571D6EB89700D42DBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8045B451D6EB89700D42DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8045B511D6EB89700D42DBF /* SWAppDelegate.m in Sources */,
+				C80865881D72A65500A71A0D /* SWMeaningViewController.m in Sources */,
+				C8D598D71D7025870016CAD5 /* SWDataContext.m in Sources */,
+				C8045B791D6ED78500D42DBF /* SWButton.m in Sources */,
+				C80746301D70DC1A00A1B817 /* SWAlternative.m in Sources */,
+				C8045B761D6EBE6200D42DBF /* SWWaterlooViewController.m in Sources */,
+				C80746191D709DAD00A1B817 /* SkyWords.xcdatamodeld in Sources */,
+				C8045B6C1D6EBA7600D42DBF /* SWStartViewController.m in Sources */,
+				C8F9845E1D73FCC500945463 /* SWDownloadOperation.m in Sources */,
+				C80746311D70DC1A00A1B817 /* SWMeaning+CoreDataProperties.m in Sources */,
+				C8045B7F1D6EFB6400D42DBF /* SWNetworkOperation.m in Sources */,
+				C8045B711D6EBE1200D42DBF /* SWGuessViewController.m in Sources */,
+				C8045B801D6EFB6400D42DBF /* SWNetworkStoreCoordinator.m in Sources */,
+				C8045B4E1D6EB89700D42DBF /* main.m in Sources */,
+				C80865841D72A62E00A71A0D /* SWAlternativeGuessViewController.m in Sources */,
+				C807462F1D70DC1A00A1B817 /* SWAlternative+CoreDataProperties.m in Sources */,
+				C80746321D70DC1A00A1B817 /* SWMeaning.m in Sources */,
+				C8045B691D6EBA0400D42DBF /* SWEngineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8045B551D6EB89700D42DBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8045B561D6EB89700D42DBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8045B5A1D6EB89700D42DBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8045B5B1D6EB89700D42DBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8045B5E1D6EB89700D42DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8045B5F1D6EB89700D42DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8045B611D6EB89700D42DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyWords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyWords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8045B621D6EB89700D42DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyWords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyWords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8045B441D6EB89700D42DBF /* Build configuration list for PBXProject "SkyWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8045B5E1D6EB89700D42DBF /* Debug */,
+				C8045B5F1D6EB89700D42DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8045B601D6EB89700D42DBF /* Build configuration list for PBXNativeTarget "SkyWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8045B611D6EB89700D42DBF /* Debug */,
+				C8045B621D6EB89700D42DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C80746171D709DAD00A1B817 /* SkyWords.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C80746181D709DAD00A1B817 /* SkyWords.xcdatamodel */,
+			);
+			currentVersion = C80746181D709DAD00A1B817 /* SkyWords.xcdatamodel */;
+			name = SkyWords.xcdatamodeld;
+			path = Model/SkyWords.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C8045B411D6EB89700D42DBF /* Project object */;
+}
